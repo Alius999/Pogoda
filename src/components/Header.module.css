@@ -1,0 +1,14 @@
+.header_container {
+    text-align: center;
+}
+
+.weather_header {
+    color: #645765;
+    margin-top: 0;
+    -webkit-text-stroke: 1px white;
+}
+
+.weather_header p {
+    color: white;
+}
+
