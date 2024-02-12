@@ -1,20 +1,21 @@
-// const axios = require('axios').default;
+import classes from './Weather.module.css';
+import Cities from "./Cities";
 
-const Ber = () => {
-
-    // axios.get('https://api.open-meteo.com/v1/forecast?latitude=51.77&longitude=55.10&hourly=temperature_2m')
-    //     .then(response => {
-    //         console.log(response);
-    //     })
-    //     .catch((error) => {
-    //         console.error(error)
-    //     })
+const Weather = (props) => {
 
     return(
-        <div>
-            <p>Привет я Рекат приложение погоды!</p>
-        </div>
+        // <div className={classes.weather}>
+            <div className={classes.weather_container}>
+                <h2>Погода в городе <span>{props.city}</span></h2>
+                <p>Температура сейчас</p>
+                {props.temperature}
+                <p>Скорость ветра</p>
+                {props.windspeed}
+                <p>Время</p>
+                {props.time}
+            </div>
+        // </div>
     )
 }
 
-export default Ber;
+export default Weather;

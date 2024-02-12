@@ -1,0 +1,15 @@
+.cities {
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    height: auto;
+    max-height: 40%;
+}
+
+.cities_list {
+    display: flex;
+    list-style-type: none;
+    width: 74%;
+    margin: 40px auto 0;
+    justify-content: space-around;
+    color: white;
+}

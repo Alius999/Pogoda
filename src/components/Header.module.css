@@ -3,12 +3,14 @@
 }
 
 .weather_header {
-    color: #645765;
+    color: #000000;
     margin-top: 0;
     -webkit-text-stroke: 1px white;
+    font-size: 45px;
 }
 
-.weather_header p {
+.weather_header ~ p {
     color: white;
+    font-size: 30px;
 }
 

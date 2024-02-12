@@ -1,0 +1,11 @@
+.all_cities {
+    width: 250px;
+    min-height: 50px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid white;
+    background: linear-gradient(#cec9ec, #a69dd5);
+    display: block;
+    margin: 40px auto 0;
+    cursor: pointer;
+}
